@@ -52,6 +52,8 @@ class Ui_Form(object):
         Form.setWindowTitle(kdecore.i18n(_fromUtf8("Form")))
         self.groupBox.setTitle(kdecore.i18n(_fromUtf8("User Module Folder")))
         self.label.setText(kdecore.i18n(_fromUtf8("Any Python modules placed in this folder will be available for import by scripts.")))
+        ### TODO                                                                _____  where is  "this" ???                                      
+        
         self.folderLabel.setText(kdecore.i18n(_fromUtf8("None selected")))
         self.browseButton.setText(kdecore.i18n(_fromUtf8("Browse")))
 
